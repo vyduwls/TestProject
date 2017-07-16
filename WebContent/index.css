@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+select{
+    color:black;
+    width : 100%;
+}
+form{
+    margin-top : 10px;
+    margin-bottom : 10px;
+    text-align: center;
+    
+}
+button{
+    color:black;
+    width : 14%;
+}
+#chat_div{
+    color:black;
+}
+#chat_input{
+    color:black;
+    width : 85%;
+}
+.chat{
+    background-color : #7dabd8;
+    width : 1px;
+    height : 500px;
+    overflow: auto;
+    top : 500px;
+    right : 0;
+    border: 1px solid #0869c7;
+    position : absolute;
+    display : none;
+}
+.leftSide{
+    right : 50px;
+    top : 30px;
+    position : absolute;
+    width : 50px;
+    height : 30px;
+    background-color: #7dabd8;
+    cursor: pointer;
+    margin : auto;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.leftSide span{
+    color : white;
+}
+
+.top_store{
+      padding: 15px;
+    border: 1px solid #428bca;
+    width: 27%;
+    height: 300px;
+    float: right;
+    margin-bottom: 25px;
+    margin-right: 4.8%;
+    background-color: white;
+}
+.top_store_img{
+    width : 50%;
+    height : 100%;
+    margin :auto;
+    float : left;
+}
+.top_store_img img{
+    margin :auto;
+    width : 70%;
+    height : 35%;
+    border-radius: 100px;
+}
+.top_sotre_title {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    float: left;
+/*     line-height: 40px; */
+    padding-top: 54px;
+    color: #ffa906;
+}
+.indexMenuBtn{
+	margin-left: 30px;
+}
+.top_store_storeName{
+    font-size : 17px;
+    text-align : center;
+    width : 50%;
+    height : 40px;
+    float : left;
+    clear: :left;
+    font-weight:bold;
+    line-height: 40px;
+}
+.top_store_address{
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    margin-top: 55px;
+    float: left;
+    clear: :left;
+    color: #337ab7;
+    line-height: 40px;
+}
+
+.index_content{
+    width : 70%;
+    margin : 0 auto;
+}

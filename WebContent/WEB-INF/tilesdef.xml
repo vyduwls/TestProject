@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+    <definition name="store" template="/WEB-INF/views/store/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/store/store.jsp" />
+    </definition>
+
+    <definition name="storeScroll" template="/WEB-INF/views/store/include/storeScroll.jsp">
+    </definition>
+
+    <definition name="json" template="/WEB-INF/views/store/include/json.jsp">
+    </definition>
+
+    <!-- <definition name="mypage" template="/WEB-INF/views/mypage/include/layout.jsp"> <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" /> <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" 
+        /> <put-attribute name="content" value="/WEB-INF/views/mypage/mypage.jsp" /> </definition> -->
+
+    <definition name="mypage" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <!-- <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" /> -->
+        <put-attribute name="content" value="/WEB-INF/views/mypage/mypage.jsp" />
+    </definition>
+    <definition name="mypage_reg_store" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/reg_store.jsp" />
+    </definition>
+
+    <definition name="mypage_update_store" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/update_store.jsp" />
+    </definition>
+
+    <definition name="mypage_reg_menu" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/reg_menu.jsp" />
+    </definition>
+    <definition name="mypage_getOrderList_store" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/getOrderList_store.jsp" />
+    </definition>
+
+    <definition name="mypage_update_menu" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/update_menu.jsp" />
+    </definition>
+
+    <definition name="mypage_getMenus" template="/WEB-INF/views/mypage/include/getMenus.jsp">
+    </definition>
+    
+
+    <definition name="mypage_orderList" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/orderList.jsp" />
+    </definition>
+
+    <definition name="mypage_getComment" template="/WEB-INF/views/mypage/include/getComment.jsp">
+    </definition>
+
+    <definition name="mypage_updateOrderstatement" template="/WEB-INF/views/mypage/include/updateOrderstatement.jsp">
+    </definition>
+
+    <definition name="mypage_getDaysSales" template="/WEB-INF/views/mypage/include/getDaysSales.jsp">
+    </definition>
+
+    <definition name="mypage_storeSales" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <!-- <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" /> -->
+        <put-attribute name="content" value="/WEB-INF/views/mypage/storeSales.jsp" />
+    </definition>
+
+    <definition name="mypage_noticeList" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/mypage/noticeList.jsp" />
+    </definition>
+
+    <definition name="order_menuList" template="/WEB-INF/views/order/include/layout_menuList.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/order/menuList.jsp" />
+    </definition>
+
+    <definition name="order_shoppingbasket" template="/WEB-INF/views/order/include/layout_shoppingbasket.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/order/shoppingbasket.jsp" />
+    </definition>
+
+    <definition name="order_order" template="/WEB-INF/views/order/include/layout_shoppingbasket.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/order/order.jsp" />
+    </definition>
+    <definition name="order_delselect" template="/WEB-INF/views/order/include/delselect.jsp">
+    </definition>
+
+    <definition name="order_update" template="/WEB-INF/views/order/include/updatebasket.jsp">
+    </definition>
+
+    <definition name="order_menudetail" template="/WEB-INF/views/order/include/menudetail.jsp">
+    </definition>
+
+    <definition name="order_gobasket" template="/WEB-INF/views/order/include/gobasket.jsp">
+    </definition>
+
+    <definition name="menus_checkshoppingbasket" template="/WEB-INF/views/order/include/checkshoppingbasket.jsp">
+    </definition>
+
+    <definition name="member_join" template="/WEB-INF/views/member/include/layout_join.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/join.jsp" />
+    </definition>
+
+    <definition name="member_join2" template="/WEB-INF/views/member/include/layout_join.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/join2.jsp" />
+    </definition>
+
+    <definition name="member_storejoin" template="/WEB-INF/views/member/include/layout_join.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/storejoin.jsp" />
+    </definition>
+
+    <definition name="member_login" template="/WEB-INF/views/member/include/layout_login.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/login.jsp" />
+    </definition>
+
+    <definition name="member_findUserid" template="/WEB-INF/views/member/include/layout_login.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/findUserid.jsp" />
+    </definition>
+
+    <definition name="member_infoEdit" template="/WEB-INF/views/mypage/include/layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header2.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <!-- <put-attribute name="leftside" value="/WEB-INF/views/mypage/include/leftside.jsp" /> -->
+        <put-attribute name="content" value="/WEB-INF/views/member/infoEdit.jsp" />
+    </definition>
+
+    <definition name="member_agree" template="/WEB-INF/views/member/include/layout_agree.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/agree.jsp" />
+    </definition>
+    <definition name="member_agree2" template="/WEB-INF/views/member/include/layout_agree.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/agree2.jsp" />
+    </definition>
+
+    <definition name="member_idcheck" template="/WEB-INF/views/member/include/idcheck.jsp">
+    </definition>
+    <definition name="member_confirmcheck" template="/WEB-INF/views/member/include/confirmcheck.jsp">
+    </definition>
+
+    <definition name="member_confirm" template="/WEB-INF/views/member/include/layout_confirm.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/member/confirm.jsp" />
+    </definition>
+
+    <definition name="notice_notice" template="/WEB-INF/views/notice/include/layout_notice.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/notice/notice.jsp" />
+    </definition>
+
+    <definition name="notice_noticeReg" template="/WEB-INF/views/notice/include/layout_notice.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/notice/noticeReg.jsp" />
+    </definition>
+
+    <definition name="notice_noticeDetail" template="/WEB-INF/views/notice/include/layout_notice.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/notice/noticeDetail.jsp" />
+    </definition>
+
+    <definition name="notice_nCommentUp" template="/WEB-INF/views/notice/include/nCommentUp.jsp">
+    </definition>
+
+    <definition name="notice_nCommentEdit" template="/WEB-INF/views/notice/include/nCommentEdit.jsp">
+    </definition>
+
+    <definition name="notice_noticeEdit" template="/WEB-INF/views/notice/include/layout_notice.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" />
+        <put-attribute name="content" value="/WEB-INF/views/notice/noticeEdit.jsp" />
+    </definition>
+
+    <definition name="index" template="/WEB-INF/views/include/layout2.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/include/header.jsp" />
+        <!-- <put-attribute name="footer" value="/WEB-INF/views/include/footer.jsp" /> -->
+        <put-attribute name="content" value="/WEB-INF/views/index.jsp" />
+    </definition>
+    <definition name="index_getChat" template="/WEB-INF/views/include/getChat.jsp">
+    </definition>
+    <definition name="index_chat" template="/WEB-INF/views/include/chat.jsp">
+    </definition>
+</tiles-definitions>
