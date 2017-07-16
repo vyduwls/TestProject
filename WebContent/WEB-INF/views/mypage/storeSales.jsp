@@ -110,7 +110,6 @@ $(document).ready(function(){
 		    <br><br>
 		 <div id="duwlspage_content">
 		        <h2 id="mypage_content_h2">[${salesList[0].storeName}] ${mon}월 가게 매출 내역</h2>
-		        		        <h2 id="mypage_content_h2">eldksjskdsjdsd,ss</h2>
 				<br>
 		<form action="storeSales.do" method="post">
 가게선택 : <select  name="seq">

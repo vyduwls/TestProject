@@ -6,7 +6,6 @@
     <br><br>
     <div id="mypage_content">
         <h2 id="mypage_content_h2">내 메뉴 수정</h2>
-                <h2 id="mypage_content_h2">내 메뉴 11111111111</h2>
         <a href="${pageContext.request.contextPath}/mypage/regMenu.do" class="btn2 btn btn-default headerbtn">가게메뉴등록</a>
             <select id="updateMenu_content_store">
                     <option>selectStore</option>
