@@ -57,6 +57,7 @@
     
     <div id="mypage_content">
         <h2 id="mypage_content_h2">"${storeName}" 주문 내역 확인</h2>
+                <h2 id="mypage_content_h2">"${storeName}" 주문 내역 확인</h2>
         <form action="getOrderList_store.do" method="post">
 가게선택 : <select  name="seq">
 			<c:forEach items="${storeList}" var="n">
